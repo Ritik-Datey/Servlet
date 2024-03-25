@@ -5,12 +5,31 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   
-  <servlet>
+<!--<servlet>
     <servlet-name>htmltoservlet</servlet-name>
-    <servlet-class>htmlToServlet.Servlet1</servlet-class>
+    <servlet-class>htmlToServlet.Servlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>htmltoservlet</servlet-name>
     <url-pattern>/toServlet</url-pattern>
   </servlet-mapping>
+ --> 
+  <servlet>
+    <servlet-name>htmltoservlet</servlet-name>
+    <servlet-class>htmlToServletToServlet.Servlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>htmltoservlet</servlet-name>
+    <url-pattern>/toServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>servlettoservlet</servlet-name>
+    <servlet-class>htmlToServletToServlet.Servlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servlettoservlet</servlet-name>
+    <url-pattern>/servlet2</url-pattern>
+  </servlet-mapping>
+  
 </web-app>

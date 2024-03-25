@@ -8,7 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class Servlet1 extends HttpServlet {
+public class Servlet extends HttpServlet{
+	
 	//To retrive data from web we have to use get or post method......
 	// we also need to provide a path to the xml file to established the connection....
 	@Override
@@ -36,4 +37,5 @@ public class Servlet1 extends HttpServlet {
 //    <servlet-name>htmltoservlet</servlet-name>
 //    <url-pattern>/toServlet</url-pattern>
 //  </servlet-mapping>
+
 }
