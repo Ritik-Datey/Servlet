@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>servlet</groupId>
-  <artifactId>FirstServlet</artifactId>
+  <artifactId>Servlet</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>FirstServlet Maven Webapp</name>
+  <name>Servlet Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -15,16 +15,16 @@
       <scope>test</scope>
     </dependency>
     
-    <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+      <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
     <dependency>
 	    <groupId>javax.servlet</groupId>
 	    <artifactId>javax.servlet-api</artifactId>
 	    <version>4.0.1</version>
         <scope>provided</scope>
     </dependency>
-
+    
   </dependencies>
   <build>
-    <finalName>FirstServlet</finalName>
+    <finalName>Servlet</finalName>
   </build>
 </project>

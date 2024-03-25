@@ -6,12 +6,11 @@
   <display-name>Archetype Created Web Application</display-name>
   
   <servlet>
-  <servlet-name>ra_ra</servlet-name>
-  <servlet-class>fisrt.ServletDemo</servlet-class>
+    <servlet-name>htmltoservlet</servlet-name>
+    <servlet-class>htmlToServlet.Servlet1</servlet-class>
   </servlet>
-  
   <servlet-mapping>
-  <servlet-name>ra_ra</servlet-name>
-  <url-pattern>/ra_ri</url-pattern>
+    <servlet-name>htmltoservlet</servlet-name>
+    <url-pattern>/toServlet</url-pattern>
   </servlet-mapping>
 </web-app>
